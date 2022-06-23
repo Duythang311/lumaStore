@@ -1,0 +1,136 @@
+/* PC */
+@media (min-width: 63.9375em) {
+   .header__nav--list {
+      display: flex;
+      justify-content: flex-end;
+   }
+}
+
+/* >= Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+   .header__nav--list {
+      display: flex;
+      justify-content: flex-end;
+   }
+   .product__item {
+      margin-bottom: 2em;
+   }
+   .whatTheySay__img {
+      order: 1;
+   }
+   .whatTheySay__desc {
+      order: 2;
+      margin-left: 16.66667%;
+   }
+   .whatTheySay__desc a {
+      margin-top: 4em;
+   }
+   .whatTheySay__bg--gray {
+      display: none;
+   }
+   .img__overlay--sub {
+      font-size: 60px;
+   }
+}
+/*  Mobile */
+@media (max-width: 46.1875em) {
+   .header {
+      height: 50px;
+   }
+   .header__logo {
+      line-height: 50px;
+   }
+   .subbody {
+      font-size: 32px;
+   }
+   .img__overlay--sub {
+      font-size: 60px;
+   }
+   .rightHeaderMobile {
+      background-color: #fff;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+   }
+   .rightHeaderMobile > img {
+      height: 36%;
+      margin-left: 1em;
+   }
+   .cartMobile i {
+      color: #333;
+      width: 100%;
+      height: 60%;
+   }
+   .rightHeaderMobile__amount {
+      padding-left: 12px;
+      font-size: 12px;
+   }
+   .header__nav--mobile {
+      z-index: -9999999999;
+      display: block;
+      width: 100%;
+      opacity: 1;
+      transform: translateY(calc(-100% - 52px));
+      transition: all linear 0.3s;
+   }
+   .header__nav--mobile.open {
+      opacity: 1;
+      transform: translateX(0);
+   }
+   .header__nav--mobileList {
+      list-style: none;
+   }
+   .header__nav--mobileList li {
+      background-color: #fff;
+   }
+   .header__nav--mobileList li:hover {
+      cursor: pointer;
+   }
+   .header__nav--mobileList a {
+      display: block;
+      padding: 16px;
+      color: #333;
+      text-decoration: none;
+      border-top: 1px solid rgb(236, 236, 236);
+      box-shadow: 0 2px 0 rgb(236, 236, 236);
+   }
+
+   .logo__item {
+      margin-bottom: 2em;
+   }
+   .product__item {
+      margin-bottom: 2em;
+   }
+   .whatTheySay__img {
+      order: 1;
+   }
+   .whatTheySay__desc {
+      order: 2;
+   }
+   .whatTheySay__desc > p {
+      margin-bottom: 12px;
+      font-size: 32px;
+      line-height: 40px;
+   }
+   .whatTheySay__desc a {
+      margin-top: 3em;
+      padding: 18px;
+      font-size: 14px;
+   }
+
+   .whatTheySay__bg--gray {
+      display: none;
+   }
+   .footerSection {
+      margin-top: 1em;
+   }
+   .parallax {
+      height: 15em;
+      background-size: 100vh;
+      background-attachment: fixed;
+   }
+   .whatTheySay__desc {
+      margin-left: 16.66667%;
+   }
+}
