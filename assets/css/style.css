@@ -196,7 +196,7 @@ html {
    margin-bottom: 12px;
    min-width: 33%;
    color: #fff;
-   font-size: 88px;
+   font-size: 80px;
    font-weight: 300;
 }
 
@@ -375,10 +375,11 @@ html {
 }
 .whatTheySay__desc a {
    background-color: #272731;
-   padding: 24px;
+   padding: 20px;
    margin-top: 7.5em;
    color: #fff;
    text-decoration: none;
+   width: 76%;
 }
 .whatTheySay__img {
    position: relative;
@@ -501,7 +502,9 @@ html {
    width: 20%;
 }
 .inforFooter {
+   font-size: 12px;
    display: block;
+   float: right;
    margin-bottom: 2em;
    margin-left: 0.5em;
 }

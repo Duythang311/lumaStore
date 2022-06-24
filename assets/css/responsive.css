@@ -28,9 +28,6 @@
    .whatTheySay__bg--gray {
       display: none;
    }
-   .img__overlay--sub {
-      font-size: 60px;
-   }
 }
 /*  Mobile */
 @media (max-width: 46.1875em) {
@@ -56,6 +53,7 @@
    .rightHeaderMobile > img {
       height: 36%;
       margin-left: 1em;
+      cursor: pointer;
    }
    .cartMobile i {
       color: #333;
